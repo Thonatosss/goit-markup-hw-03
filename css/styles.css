@@ -43,6 +43,8 @@ img{
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .header {
@@ -236,7 +238,7 @@ a:focus {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.section .about{
+.section.about{
   padding-top: 0;
 }
 .team-title {
@@ -315,6 +317,7 @@ a:focus {
 .our-team {
   display: flex;
   justify-content: center;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .member{
   padding-top: 30px;
@@ -373,11 +376,12 @@ button:focus {
   font-family: inherit;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 .filters {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 56px;
 }
 .filters-buttons {
   margin-right: 8px;
@@ -438,6 +442,8 @@ button:focus {
 .logo-footer{
   margin-bottom:20px;
   margin-right: 0;
+  display: inline-block;
+
 }
 .footer-adress-space:not(:last-child){
   margin-bottom: 9px;
