@@ -179,6 +179,9 @@ a:focus {
 
   letter-spacing: 0.03em;
 }
+.advantages{
+  width: calc((100% - 90px) / 4);
+}
 .hidden-title {
   position: absolute;
   width: 1px;
@@ -273,6 +276,10 @@ a:focus {
 .about-member{
   text-align: center;
 }
+.team-member{
+  width: calc((100% - 90px) /4);
+}
+
 
 .member{
   flex-basis: calc((100% - 90px) / 4);
