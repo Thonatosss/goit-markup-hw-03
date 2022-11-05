@@ -238,7 +238,7 @@ a:focus {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.section.about{
+.about.section{
   padding-top: 0;
 }
 .team-title {
@@ -391,6 +391,7 @@ button:focus {
 .list-item{
   margin-right: 30px;
   margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 3)
 }
 .list-item:nth-child(3n){
   margin-right: 0;
