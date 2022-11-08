@@ -33,8 +33,8 @@ ul {
   margin: 0;
   padding: 0;
 }
-img{
-  display:block;
+img {
+  display: block;
   max-width: 100%;
 }
 
@@ -134,7 +134,19 @@ a:focus {
   background: #188ce8;
 }
 .hero {
-  background-color: #2f303a;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Portfolio/bgimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   padding-top: 200px;
   padding-bottom: 210px;
 }
@@ -179,7 +191,7 @@ a:focus {
 
   letter-spacing: 0.03em;
 }
-.advantages{
+.advantages {
   width: calc((100% - 90px) / 4);
 }
 .hidden-title {
@@ -233,7 +245,6 @@ a:focus {
   margin-right: 30px;
 }
 
-
 .what-are-we-doing {
   font-size: 36px;
   line-height: 1.16;
@@ -241,7 +252,7 @@ a:focus {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.about.section{
+.about.section {
   padding-top: 0;
 }
 .team-title {
@@ -266,22 +277,23 @@ a:focus {
   margin-bottom: 10px;
 }
 
-
 .our-team .team-member .about-member {
   font-size: 16px;
   line-height: 1.1875;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
 }
-.about-member{
+.about-member {
   text-align: center;
 }
-.team-member{
-  width: calc((100% - 90px) /4);
+.team-member {
+  width: calc((100% - 90px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-
-.member{
+.member {
   flex-basis: calc((100% - 90px) / 4);
   background: #ffffff;
 
@@ -296,11 +308,9 @@ a:focus {
   flex-basis: calc((100% - 90px) / 4);
   gap: 30px;
 }
-.member{
+.member {
   padding-top: 30px;
   padding-bottom: 30px;
-
-
 }
 .footer {
   padding-top: 60px;
@@ -340,6 +350,9 @@ a:focus {
 button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .filters button {
@@ -379,7 +392,7 @@ button:focus {
 
   letter-spacing: 0.06em;
 }
-.poster-title{
+.poster-title {
   margin-bottom: 4px;
 }
 .list-item .poster-filter {
@@ -394,26 +407,28 @@ button:focus {
   gap: 30px;
 }
 
-.list-item{
-  flex-basis: calc((100% - 60px) / 3)
+.list-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.poster-info{
-  padding-top:20px;
+.poster-info {
+  padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
-  border-bottom: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
-
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
-.logo-footer{
-  margin-bottom:20px;
+.logo-footer {
+  margin-bottom: 20px;
   margin-right: 0;
   display: inline-block;
-
 }
-.footer-adress-space:not(:last-child){
+.footer-adress-space:not(:last-child) {
   margin-bottom: 9px;
 }
