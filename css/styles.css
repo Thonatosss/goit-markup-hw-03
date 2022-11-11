@@ -106,6 +106,21 @@ a:focus {
 }
 
 /* ГЕРОЙ */
+.svg-list-item {
+  width: 270px;
+  height: 100px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-svg-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
 .order-btn {
   color: var(--primary-white-color);
   background-color: #2196f3;
@@ -292,6 +307,29 @@ a:focus {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.members-soc-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soc-icon {
+  fill: #afb1b8;
+}
+.soc-link:hover {
+  background-color: #2196f3;
+}
+.soc-link:hover .soc-icon {
+  fill: #ffffff;
+}
 
 .member {
   flex-basis: calc((100% - 90px) / 4);
@@ -312,6 +350,40 @@ a:focus {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/* постійні клієнти */
+.regular-customers {
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.customer-list {
+  display: flex;
+  gap: 30px;
+  
+}
+.custumer-list-item {
+  display: flex;
+ 
+}
+
+.custumer-list-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+.custumer-icon{
+  fill: #AFB1B8;
+}
+
+/* футер */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
