@@ -76,8 +76,6 @@ img {
   text-decoration: none;
 }
 
-
-
 .adress-link {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -95,14 +93,13 @@ img {
 .adress {
   display: flex;
   margin-left: auto;
-  
 }
-.adress-link{
+.adress-link {
   display: flex;
   align-items: center;
 }
-.icon-envelope{
-  fill:var(--secondary-text-color);
+.icon-envelope {
+  fill: var(--secondary-text-color);
   margin-right: 10px;
 }
 .adress-link:hover,
@@ -110,9 +107,8 @@ img {
   color: var(--accent-color);
 }
 .adress-link:hover .icon-envelope,
-.adress-link:focus .icon-envelope{
+.adress-link:focus .icon-envelope {
   fill: var(--accent-color);
-  
 }
 
 .navigation-list .navigation-list-item:not(:last-child) {
@@ -379,7 +375,6 @@ img {
 .customer-list {
   display: flex;
   gap: 30px;
-  
 }
 .custumer-list-item {
   display: flex;
@@ -387,9 +382,6 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
-
- 
 }
 
 .custumer-list-link {
@@ -398,22 +390,31 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
-.customer-icon{
-  fill: #AFB1B8;
+.customer-icon {
+  fill: #afb1b8;
 }
-.custumer-list-link:hover .customer-icon{
-  fill: #2196F3;
-    
+.custumer-list-link:hover .customer-icon {
+  fill: #2196f3;
 }
-.custumer-list-item:hover{
-  border-color:#2196F3;
+.custumer-list-item:hover {
+  border-color: #2196f3;
 }
-
-
 
 /* футер */
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+
+  color: #ffffff;
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -445,6 +446,42 @@ img {
 .footer {
   background: #2f303a;
 }
+.footer-adress-list{
+  margin-right: 70px;
+}
+.join-link:hover {
+  background-color: #2196f3;
+}
+.join-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.join-soc-list {
+  display: flex;
+}
+.join-soc-list {
+  width: 206px;
+  height: 80px;
+  gap: 10px;
+}
+.icon-join{
+  fill: #FFFFFF;
+}
+.join-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* портфоліо */
 
@@ -530,6 +567,7 @@ button:focus {
   margin-bottom: 20px;
   margin-right: 0;
   display: inline-block;
+  
 }
 .footer-adress-space:not(:last-child) {
   margin-bottom: 9px;
