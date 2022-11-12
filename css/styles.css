@@ -75,10 +75,8 @@ img {
 .links {
   text-decoration: none;
 }
-.adress a:hover,
-a:focus {
-  color: var(--accent-color);
-}
+
+
 
 .adress-link {
   color: var(--secondary-text-color);
@@ -97,7 +95,26 @@ a:focus {
 .adress {
   display: flex;
   margin-left: auto;
+  
 }
+.adress-link{
+  display: flex;
+  align-items: center;
+}
+.icon-envelope{
+  fill:var(--secondary-text-color);
+  margin-right: 10px;
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-color);
+}
+.adress-link:hover .icon-envelope,
+.adress-link:focus .icon-envelope{
+  fill: var(--accent-color);
+  
+}
+
 .navigation-list .navigation-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -366,22 +383,35 @@ a:focus {
 }
 .custumer-list-item {
   display: flex;
- 
-}
-
-.custumer-list-link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+
+ 
+}
+
+.custumer-list-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center
-  
+  justify-content: center;
+ 
 }
-.custumer-icon{
+.customer-icon{
   fill: #AFB1B8;
 }
+.custumer-list-link:hover .customer-icon{
+  fill: #2196F3;
+    
+}
+.custumer-list-item:hover{
+  border-color:#2196F3;
+}
+
+
 
 /* футер */
 .footer {
